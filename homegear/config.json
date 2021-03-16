@@ -41,6 +41,6 @@
   },
   "schema": {
     "ssl": "bool",
-    "device": "string"
+    "device": "str"
   }
 }
