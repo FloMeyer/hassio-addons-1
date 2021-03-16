@@ -13,7 +13,7 @@
   "panel_icon": "mdi:thermostat-box",
   "panel_title": "Homegear",
   "uart": true,
-  "gpio": true,
+  "gpio": false,
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO"
