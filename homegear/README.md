@@ -43,6 +43,7 @@ See ``CHANGELOG.md`` file.
 
 ## License
 
+Copyright (c) 2021 FloMeyer (flo@flomeyer.de).
 Copyright (c) 2019 Sebastian (@kreativmonkey on GitHub).
 Copyright (c) 2017 Jan (@yeah on GitHub).
 
