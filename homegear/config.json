@@ -36,9 +36,11 @@
   "environment": {
   },
   "options": {
-    "ssl": false
+    "ssl": false,
+    "device": "/dev/ttyUSB0"
   },
   "schema": {
-    "ssl": "bool"
+    "ssl": "bool",
+    "device": "string"
   }
 }
