@@ -39,5 +39,6 @@
     "ssl": false
   },
   "schema": {
+    "ssl": "bool"
   }
 }
