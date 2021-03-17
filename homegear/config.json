@@ -18,7 +18,9 @@
     "SYS_ADMIN",
     "SYS_RAWIO"
   ],
-  "devices": ["/dev/ttyUSB0:/dev/cul:rwm"],
+  "serial": {
+      "port": "/dev/ttyUSB0"
+    },
   "map": [
 	  "config:rw", 
 	  "share:rw"
