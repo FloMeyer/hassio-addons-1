@@ -13,14 +13,11 @@
   "panel_icon": "mdi:thermostat-box",
   "panel_title": "Homegear",
   "uart": true,
-  "gpio": false,
+  "gpio": true,
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO"
   ],
-  "serial": {
-      "port": "/dev/ttyUSB0"
-    },
   "map": [
 	  "config:rw", 
 	  "share:rw"
@@ -38,11 +35,7 @@
   "environment": {
   },
   "options": {
-    "ssl": false,
-    "device": "/dev/ttyUSB0"
   },
   "schema": {
-    "ssl": "bool",
-    "device": "str"
   }
 }
