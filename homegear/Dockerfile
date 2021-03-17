@@ -62,8 +62,7 @@ RUN \
     rm -f /etc/homegear/homegear.key; \
     cp -R /etc/homegear /etc/homegear.config; \
     cp -R /var/lib/homegear /var/lib/homegear.data; \
-    apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*; \
-    usermod -a -g 18 homegear
+    apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 COPY script/run.sh /run.sh
 RUN chmod +x /run.sh
